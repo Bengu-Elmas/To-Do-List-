@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List ♥</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Damion&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div id="title">
+        <h1>Welcome To Your To-Do List</h1>
+      </div>
+    </header>
+    <main>
+      <div id="page-info">
+        <h3>
+          Sometimes, having too many things to do in a single day can feel
+          overwhelming and stressful. When tasks start piling up, it can become
+          difficult to decide where to begin or keep track of what has already
+          been completed. This to-do list website is designed to help you
+          organize your daily tasks, manage your responsibilities, and stay
+          focused throughout the day.
+        </h3>
+        <h3>Feel free to give it a try >⩊< .ᐟ</h3>
+      </div>
+    </main>
+    <section>
+      <div>
+        <form id="to-do-textbox">
+          <input
+            type="text"
+            id="to-do-text"
+            name="to-do-text"
+            placeholder="Add a to-do item..."
+          />
+          <input type="submit" value="Add ✹" />
+        </form>
+        <p id="error-message"></p>
+        <div class="todoBox">
+          <ul id="to-do-list"></ul>
+        </div>
+      </div>
+    </section>
+    <script src="index.js" defer></script>
+  </body>
+</html>
